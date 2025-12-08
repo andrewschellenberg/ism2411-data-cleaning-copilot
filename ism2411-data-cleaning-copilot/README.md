@@ -4,10 +4,11 @@ This project loads a raw data set and cleans it, leading to an output of a CSV f
 How to Run the Script
 1. Make sure you have Python and Pandas installed.
 2. Open Terminal
-3. Navigate to project folder in terminal
+3. Navigate to project folder in terminal by using
    cd ism2411-data-cleaning-copilot/src
 5. Run the Script
    python data_cleaning.py
 7. The clean file will be generated at
    data/processed/sales_data_clean.csv
+
 
