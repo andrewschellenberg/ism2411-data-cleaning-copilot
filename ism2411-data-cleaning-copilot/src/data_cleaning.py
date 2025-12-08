@@ -9,9 +9,8 @@ def load_data(file_path: str):
 # Clean Column Names by :
 # 1. Removing leading & trailing spaces 
 # 2. Turning owercase 
-# 3. Replacing spaces with underscores
 def clean_column_names(df):
-    df.columns = df.columns.str.strip().str.lower().str.replace(' ', '_')
+    df.columns = df.columns.str.strip().str.lower()
     return df
 
 #Handle Missing values by
