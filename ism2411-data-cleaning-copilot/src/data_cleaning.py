@@ -1,3 +1,4 @@
+#This script loads raw sales data, cleans it, and remove invalid entries. The purpose is to ensure the dataset is ready to be analysed.
 import pandas as pd
 
 # Load the raw CSV file into a pandas DataFrame
